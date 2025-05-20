@@ -15,8 +15,8 @@ export function BackButton({ label, href }: BackButtonProps) {
       size="sm"
       asChild
     >
-      {/* <Link href={href}>{label}</Link> */}
-      <Link href="/">Back to Home page</Link>
+      <Link href={href}>{label}</Link>
+      {/* <Link href="/">Back to Home page</Link> */}
     </Button>
   )
 }
